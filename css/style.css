@@ -1,0 +1,140 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  /* line-height: 2; */
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  /* margin: 50px */
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a {
+  text-decoration: none;
+  color: #11999E;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #E1F6F6;
+}
+
+p {
+  line-height: 2;
+}
+.dev-title{
+  text-decoration: underline;
+}
+
+.TopContainer{
+    background-color: #E4F9F5;
+    padding-top: 150px;
+    position: relative;
+}
+
+
+.TopCloud{
+  width:   150px;
+  height: 75px;
+  position: absolute;
+  right: 300px;
+  opacity: 0.33;
+}
+
+.BottomCloud{
+  position: absolute;
+  width:   150px;
+  height: 75px;
+  bottom: 300px;
+  left: 250px;
+  opacity: 0.33;
+}
+
+.profile {
+  margin: 100px auto;
+}
+
+.profile-image {
+  width: 15%;
+}
+.bio {
+  width: 30%;
+  margin: 0 auto;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  width: 4%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.linux {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.windows {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+.contact-me {
+  margin-bottom: 100px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
